@@ -26,7 +26,7 @@ body {
 }
 .aboutme div {
 	
- display: inline-block;
+ 	display: inline-block;
  
 }
 .descript {
@@ -38,9 +38,9 @@ body {
 
 .pew {
 	font-family: "Hind",sans-serif;
-    font-size: 1.4em;
-    font-weight: 300;
-    align="justify";
+        font-size: 1.4em;
+        font-weight: 300;
+        text-align="justify";
 } 
 
 .myphoto {

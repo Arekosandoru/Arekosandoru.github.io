@@ -63,6 +63,10 @@ label {
 	font-size: 1.5em;
 }
 
+.skills {
+	width: 100%;
+}
+
 .skills div{
 	display: inline-block;
 	margin: 5px;
@@ -74,20 +78,20 @@ label {
 }
 .javaskills {
     margin-left: 12.5%;
-	width: 25%;
+	width: 10%;
     min-height: 200px;
-    min-width: 200px;
+    min-width: 180px;
 }
 .webskills {
-    width: 25%;
+    width: 10%;
     min-height: 200px;
-    min-width: 200px;
+    min-width: 180px;
 }
 
 .oskills {
-    width: 25%;
+    width: 10%;
     min-height: 200px;
-    min-width: 200px;
+    min-width: 180px;
 
     /*background-color: #d9edf7;*/
 }

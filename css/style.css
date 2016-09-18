@@ -22,6 +22,16 @@ body {
 .aboutme div {
  display: inline-block;
 }
+
+.myphoto {
+	height: 258px;
+	width: 36%;
+	min-width: 110px;
+	background: #edeef0 url(../image/myphoto2.jpg) 50% 50% no-repeat;
+	background-size: 250px;
+	margin: 10px;
+	margin-bottom: 25px;
+	}
 .descript {
 	height: auto;
 	width: 50%;
@@ -32,23 +42,15 @@ body {
 	font-family: "Hind",sans-serif;
     font-size: 1.5em;
     font-weight: 300;
-    text-align="justify";
+    /*text-align: justify;*/
 } 
-.myphoto {
-	height: 258px;
-	width: 38%;
-	background: #edeef0 url(../image/myphoto2.jpg) 50% 50% no-repeat;
-	background-size: 250px;
-	margin: 10px;
-	margin-bottom: 25px;
-	}
 .tableprofile {
  	
  max-width: 400px;
  margin: auto;
 } 
 .secondcell {
-	vertical-align: center;
+	text-align: right;
 }
 
 

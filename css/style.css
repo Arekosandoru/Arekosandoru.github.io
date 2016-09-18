@@ -101,16 +101,16 @@ label {
 .share {
     /*width: auto;*/
     background: #ecf0f1;
-    max-width: 400px;
+    max-width: 330px;
     min-width: 126px;
     margin-top: 120px;
     padding: 10px;
-    padding-left: 10px;
-    margin: 0 auto;
+    margin: auto;
 }
 .share b {
     margin: auto;
     font-weight: 300;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
     text-transform: uppercase;
     color: #337ab7;
     margin-right: 20px;

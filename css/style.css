@@ -13,10 +13,13 @@ body {
 	background-position: 0 -30px;
 	margin-bottom: 40px;
 }
-.aboutme {
-	 background-color: #edeef0;	
+.myTabContent {
+
 }
-.aboutme div {	
+.aboutme {
+ background-color: #edeef0;	
+}
+.aboutme div {
  display: inline-block;
 }
 .descript {
@@ -51,9 +54,7 @@ label {
 	font-weight: 300;
 	font-size: 1.5em;
 }
-.emptyspan {
-width: 32%;
-}
+
 .skills {	
 	min-width: 200px;
 	max-width: 580px;
@@ -93,26 +94,19 @@ width: 32%;
 	margin-left: 100px;
 	margin-right: 100px;
 }
-.nav-tabs li:first-child {
-	/*margin-left: 43.2%;*/
-	left: 43.2%;
-}
-.nav-tabs li:nth-child(2) {
-    left: 43.2%;
-}
-.nav-tabs li:nth-child(3) {
-    left: 43.2%;
+.asd {
+	width: 270px;
+	margin: 0 auto;
 }
 .share {
-
     /*width: auto;*/
+    background: #ecf0f1;
     max-width: 400px;
     min-width: 360px;
-    margin: 0 auto;
     margin-top: 120px;
     padding: 10px;
     padding-left: 20px;
-    background: #ecf0f1;
+    margin: 0 auto;
 }
 .share b {
     margin: auto;

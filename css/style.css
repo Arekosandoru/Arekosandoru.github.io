@@ -3,9 +3,12 @@ div {
 }
 body {
     /*background: #edeef0;*/
+   font-family: 'Roboto Slab', serif;
 }
 #header {
-	font-family: Helvetica, Arial, serif;
+	/*font-family: 'Roboto Slab', serif;*/
+	/*font-family: Helvetica, Arial, serif;*/
+	font-family: Century,sans-serif; 
 	background: #2e7bcf url(../image/header-bg.jpg) 0 0 repeat-x;
 	border-bottom: solid 1px #275da1;
 	margin-bottom: 20px;
@@ -17,7 +20,8 @@ body {
 
 }
 .aboutme {
- background-color: #edeef0;	
+ background-color: #edf6fa; /*#edeef0;*/
+ border-radius: 10px;
 }
 .aboutme div {
  display: inline-block;
@@ -27,7 +31,7 @@ body {
 	height: 258px;
 	width: 36%;
 	min-width: 110px;
-	background: #edeef0 url(../image/myphoto2.jpg) 50% 50% no-repeat;
+	background: #edf6fa url(../image/3.jpg) 50% 50% no-repeat;
 	background-size: 250px;
 	margin: 10px;
 	margin-bottom: 25px;
@@ -39,7 +43,8 @@ body {
 	margin: 10px;
 }
 .pew {
-	font-family: "Hind",sans-serif;
+	font-family: 'Roboto Slab', serif;
+	/*font-family: "Hind",sans-serif;*/
     font-size: 1.5em;
     font-weight: 300;
     /*text-align: justify;*/
@@ -75,23 +80,23 @@ label {
 	margin: 5px;
 }
 .skillst {
-	background: rgba(236, 240, 241, 0.9);
+	background: /*rgba(236, 240, 241, 0.9);*/ #edf6fa;
     border-radius: 7px;
 }
 .javaskills {
     margin-left: 12.5%;
 	width: 10%;
-    min-height: 200px;
+    min-height: 250px;
     min-width: 180px;
 }
 .webskills {
     width: 10%;
-    min-height: 200px;
+    min-height: 250px;
     min-width: 180px;
 }
 .oskills {
     width: 10%;
-    min-height: 200px;
+    min-height: 250px;
     min-width: 180px;
     /*background-color: #d9edf7;*/
 }
@@ -113,12 +118,13 @@ label {
 }
 .share {
     /*width: auto;*/
-    background: #ecf0f1;
+    background: /*#ecf0f1;*/#edf6fa;
     /*max-width: 130px;
     min-width: 126px;*/
     width: 130px;
     padding: 10px;
     margin: auto;
+    border-radius: 4px;
 }
 .share b {
     margin: auto;
@@ -189,7 +195,7 @@ label {
     visibility: visible;
 }
 .nav-tabs > li > a {
-  margin-left: 3px;
+  margin-left: 7px;
   line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;

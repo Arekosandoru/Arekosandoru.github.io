@@ -19,31 +19,33 @@ body {
 .aboutme {
  background-color: #edf6fa; /*#edeef0;*/
  border-radius: 10px;
+ margin: auto;
 }
-.aboutme div {
+.mddd {
+	max-width: 630px;
+	margin: 0 auto;
+}
+.mddd div {
  display: inline-block;
  margin: auto;
 }
 .myphoto {
 	height: 258px;
-	width: 36%;
-	min-width: 110px;
+	width: 260px;
 	background: #edf6fa url(../image/3.jpg) 50% 50% no-repeat;
 	background-size: 250px;
-	margin: 10px;
-	margin-bottom: 25px;
 	}
 .descript {
 	height: auto;
-	width: 50%;
+	width: 350px;
 	vertical-align: top;
-	margin: 10px;
 }
 .pew {
 	font-family: 'Roboto Slab', serif;
 	/*font-family: "Hind",sans-serif;*/
     font-size: 1.5em;
     font-weight: 300;
+    padding: 10px;
     /*text-align: justify;*/
 } 
 .tableprofile {
@@ -187,7 +189,7 @@ label {
     visibility: visible;
 }
 .nav-tabs > li > a {
-  margin-left: 9px;
+  margin-left: 11px;
   line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;

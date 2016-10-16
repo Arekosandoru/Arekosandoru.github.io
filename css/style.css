@@ -98,10 +98,6 @@ label {
     min-width: 180px;
     /*background-color: #d9edf7;*/
 }
-#profile {
-}
-#contacts {
-}
 .asd {
 	min-width: 300px;
 	width: 300px;	
@@ -190,7 +186,6 @@ label {
     visibility: visible;
 }
 .nav-tabs > li > a {
-  margin-left: 11px;
   line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;

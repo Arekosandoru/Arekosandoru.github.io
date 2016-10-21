@@ -186,10 +186,8 @@ label {
 }
 
 
-
 @media (max-width: 600px) {
-	
-	
+
 	.skills {
 		display: flex;
 		flex-direction: column;
@@ -199,13 +197,10 @@ label {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-	}
-	
-	
+	}	
 	.resume {
 		margin-bottom: 10px;
-	}		
-	
+	}			
   #footer {
     font-family: Century,sans-serif; 
 	position: relative;
@@ -216,4 +211,12 @@ label {
 	margin-top: 20px;	
 	clear: both;
   }
+}
+
+@media (max-width: 400px){
+	.descript p {
+		width: 320px;
+		font-size: 14px;
+		text-align: center;
+	}
 }

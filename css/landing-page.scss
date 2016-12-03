@@ -9,6 +9,11 @@ html {
     font-family: 'Allerta Stencil', sans-serif;
 }
 
+.threeDivs {
+    min-height: 270px;
+    padding-bottom: 50px;
+}
+
 .topMenu {
     z-index: 101;
 }
@@ -179,7 +184,7 @@ html {
 }
 
 .about {
-    min-height: 980px;
+    min-height: 1080px;
     font-family: 'Montserrat', sans-serif;
     border-top: 1px solid #4c7491;
     border-bottom: 1px solid #4c7491;

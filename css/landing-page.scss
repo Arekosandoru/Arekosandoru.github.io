@@ -12,7 +12,14 @@ html {
 .topMenu {
     z-index: 101;
 }
-
+.row {
+/* margin-left: -15px; */
+/* margin-right: -15px; */
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+width: 100%;
+}
 .blackBackground {
     background-color: rgba(0, 0, 0, 0.9) !important;
     border-bottom: 1px solid #333 !important;

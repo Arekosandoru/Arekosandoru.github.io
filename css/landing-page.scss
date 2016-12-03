@@ -195,6 +195,9 @@ section {}
         text-align: center;
         padding: 0 1% 15px 1%;
         font-size: 16px;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding-top: 15px;
     }
 }
 
@@ -430,7 +433,10 @@ form textarea {
 .left {
     margin-right: 2%;
 }
-
+.cf {
+    padding-top: 5px;
+    margin-top: 5px;
+}
 .cf:before,
 .cf:after {
     content: " ";
@@ -446,6 +452,9 @@ form textarea {
 @media screen and (max-width: 1500px) {
     .header-nightsky .btn-primary {
         margin-bottom: 10px;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
 

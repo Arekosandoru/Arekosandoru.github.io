@@ -7,6 +7,9 @@ html {
     height: 100%;
     color: white;
     font-family: 'Allerta Stencil', sans-serif;
+
+        overflow-x: hidden;
+
 }
 
 section {}
@@ -453,9 +456,6 @@ form textarea {
     .header-nightsky .btn-primary {
         margin-bottom: 10px;
     }
-    body {
-        overflow-x: hidden;
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -510,9 +510,6 @@ form textarea {
     }
     .about {
         padding-top: 71px;
-    }
-    body {
-        overflow-x: hidden;
     }
 }
 

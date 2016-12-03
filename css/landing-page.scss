@@ -431,17 +431,6 @@ form textarea {
     margin-right: 2%;
 }
 
-@media (max-width: 480px) {
-    .half {
-        width: 100%;
-        float: none;
-        margin-bottom: 0;
-    }
-}
-
-
-/* Clearfix */
-
 .cf:before,
 .cf:after {
     content: " ";
@@ -452,6 +441,12 @@ form textarea {
 
 .cf:after {
     clear: both;
+}
+
+@media screen and (max-width: 1500px) {
+    .header-nightsky .btn-primary {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -480,6 +475,9 @@ form textarea {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    .header-nightsky .btn-primary {
+        margin-bottom: 10px;
+    }
     .portfolioItem img {
         max-width: 290px;
     }
@@ -501,7 +499,24 @@ form textarea {
     .header-nightsky .navbar {
         // max-width: 320px;
     }
+    .about {
+        padding-top: 71px;
+    }
     body {
         overflow-x: hidden;
+    }
+}
+
+@media (max-width: 480px) {
+    .about .wBlock {
+        font-size: 14px;
+    }
+    .contactUs {
+        padding-top: 100px;
+    }
+    .half {
+        width: 100%;
+        float: none;
+        margin-bottom: 0;
     }
 }

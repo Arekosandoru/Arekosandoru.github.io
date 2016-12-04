@@ -69,7 +69,7 @@
             <div class="container-fluid text-center">
                 <p class="textAboutMe">
                     Здравствуйте, меня зовут Александр и я веб-разработчик.
-                    <br> Я создаю красивые и функциональные сайты, используя HTML5, CSS3 и JavaScript/jQuery, Bootstrap. 
+                    <br> Я создаю красивые и функциональные сайты, используя HTML5, CSS3 и JavaScript/jQuery, Bootstrap.
                     <br> Так же мне очень интересен backend, изучаю и использую Java &amp; Node.js.
                     <br>
                     <br><b>Если Вы хотите заказать сайт или предложить мне работу в команде, свяжитесь со мной</b>
@@ -206,15 +206,16 @@
                 <div class="contact_form_section">
                     <form name="htmlform" class="cf" id="contactForm">
                         <div class="half left cf">
-                            <input type="text" name="input-name" id="input-name" placeholder="Ваше имя">
+                            <input type="text" name="input-name" id="input-name" placeholder="Ваше имя" required>
                             <input type="email" name="input-email" id="input-email" placeholder="Ваш Email адрес">
-                            <input type="text" name="input-number" id="input-number" placeholder="Ваш контактный номер">
+                            <input type="text" name="input-number" id="input-number" placeholder="Ваш контактный номер" required>
                         </div>
                         <div class="half right cf">
-                            <textarea name="input-message" id="input-message" placeholder="Описание проекта"></textarea>
-                            <input type="text" name="input-budget" id="input-budget" placeholder="Бюджет проекта">
+                            <textarea name="input-message" id="input-message" placeholder="Описание проекта" required></textarea>
+                            <input type="text" name="input-budget" id="input-budget" placeholder="Бюджет проекта" required>
                         </div>
-                        <input type="submit" value="Отправить" id="input-submit">
+                        <input type="submit" value="Отправить" id="btnSubmit input-submit">
+                        <div id="success"></div>
                     </form>
                 </div>
             </div>

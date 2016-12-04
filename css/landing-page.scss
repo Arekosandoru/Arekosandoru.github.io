@@ -66,11 +66,13 @@ html {
     background-position: center center;
     height: 60px;
     width: 60px;
-    margin-top: -30px;
-    margin-left: -30px;
-    left: 50%;
-    top: 50%;
-    position: absolute;
+    margin: 0 auto;
+    margin-top: 30%;
+    // margin-top: -30px;
+    // margin-left: -30px;
+    // left: 50%;
+    // top: 50%;
+    // position: absolute;
 }
 
 .header-nightsky .navbar-nav>li>a {
@@ -458,9 +460,15 @@ form textarea {
 }
 
 @media screen and (max-width: 768px) {
+    html,
     body {
-        overflow-x: hidden !important;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        // overflow-x: hidden;
     }
+
     .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: #fff;
         font-size: 16px;

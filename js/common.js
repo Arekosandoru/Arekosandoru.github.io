@@ -11,7 +11,7 @@ $(document).ready(function() {
 	$(document).on("scroll", function(){
 		secondPage = $("nav li:nth-child(2) a").attr("href");
 
-		if ( $("body").scrollTop() >= $("nav").height() )
+		if ( ($("body").scrollTop() >= $("nav").height()) &&  $("body").width() > 768)
 		{
 			$("nav").addClass("navbar-fixed-top blackBackground");
 		} else {

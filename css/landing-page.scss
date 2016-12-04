@@ -18,13 +18,6 @@ html {
     z-index: 101;
 }
 
-.row {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-}
-
 .blackBackground {
     background-color: rgba(0, 0, 0, 0.9) !important;
     border-bottom: 1px solid #333 !important;
@@ -68,11 +61,6 @@ html {
     width: 60px;
     margin: 0 auto;
     margin-top: 30%;
-    // margin-top: -30px;
-    // margin-left: -30px;
-    // left: 50%;
-    // top: 50%;
-    // position: absolute;
 }
 
 .header-nightsky .navbar-nav>li>a {
@@ -230,7 +218,6 @@ html {
     padding-top: 100px;
     padding-bottom: 200px;
     min-height: 980px;
-    // background-image: url(../img/storm-ocean-wind-wave-sky-cloud.jpg);
     h2 {
         outline: 2px solid white;
         border-style: outset;
@@ -272,7 +259,6 @@ html {
 
 footer {
     padding: 5px;
-    // background-color: #333333;
     font-family: Aldrich;
     a {
         font-weight: 300;
@@ -453,6 +439,11 @@ form textarea {
     clear: both;
 }
 
+
+
+
+/* aaaaaaaaaaaaaaaaaaaaMEDIA MEDIAaaaaaaaaaaaaaaaaaaaaaa */
+
 @media screen and (max-width: 1500px) {
     .header-nightsky .btn-primary {
         margin-bottom: 10px;
@@ -466,9 +457,14 @@ form textarea {
         height: 100%;
         margin: 0px;
         padding: 0px;
-        // overflow-x: hidden;
     }
-
+    .row {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+    }
     .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: #fff;
         font-size: 16px;
@@ -495,7 +491,8 @@ form textarea {
         margin-bottom: 10px;
     }
     .header-nightsky .btn-primary {
-        margin-bottom: 10px;
+    margin: 0;
+    margin-bottom: 20px;
     }
     .portfolioItem img {
         max-width: 290px;
@@ -514,9 +511,6 @@ form textarea {
     }
     .textAboutMe {
         font-size: 14px;
-    }
-    .header-nightsky .navbar {
-        // max-width: 320px;
     }
     .about {
         padding-top: 71px;

@@ -20,7 +20,7 @@ $(document).ready(function() {
 	});
 
 
-
+    
 
     //Ресайз окна
     function heightDetect() {

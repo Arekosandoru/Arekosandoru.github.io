@@ -1,1 +1,1 @@
-# git-checkout gh-pages
+# git checkout gh-pages
